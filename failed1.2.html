@@ -1,0 +1,50 @@
+﻿<html>
+     <body>
+          <script type="text/JavaScript">
+
+            var a=new Array(0,1);
+
+            var t=(a[0]+a[1])/2;
+ 
+            var b=t.toString();
+
+            var i=b.length;
+
+            function f(t)
+
+            {
+            
+            f=t*t-0.5 
+              
+            return f;
+
+             }
+
+         while(i<=5)   
+
+          {
+            if（f>0）
+              
+            {
+              a.splice(1,1,t);
+ 
+              }
+            else
+
+            {
+
+             a.splice(0,1,t);
+
+              }
+
+            b=t.toString();
+
+            i=b.length;
+
+            }
+
+          document.write (t);
+
+          </script>
+     </body>
+</html>
